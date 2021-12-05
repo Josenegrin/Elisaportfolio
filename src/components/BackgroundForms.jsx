@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
 import styled from '@emotion/styled';
+import ImgElipse2 from '../assets/img-bg/Ellipse2.svg'
 
-const Elipse2 = styled.img`
-    background-image: url('../assets/img-bg/Elipse2.svg');
+const Elipse2 = styled.svg`
+    background-image: url(${ImgElipse2});
     background-repeat: no-repeat;
     position: absolute;
     width: 400px;

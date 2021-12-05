@@ -39,10 +39,10 @@ const ProyectoImg = ({desktopalt, mobilealt, desktopsrc, mobilesrc}) => {
 }
  
 ProyectoImg.propTypes = {
-    desktopalt: PropTypes.string.isRequired,
-    mobilealt: PropTypes.string.isRequired,
-    desktopsrc: PropTypes.string.isRequired,
-    mobilesrc: PropTypes.string.isRequired
+    desktopalt: PropTypes.string,
+    mobilealt: PropTypes.string,
+    desktopsrc: PropTypes.string,
+    mobilesrc: PropTypes.string
 }
 
 export default ProyectoImg;
