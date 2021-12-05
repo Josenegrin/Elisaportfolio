@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/repository-name/static/css/main.29359f69.chunk.css",
+    "main.js": "/repository-name/static/js/main.2354ca40.chunk.js",
+    "main.js.map": "/repository-name/static/js/main.2354ca40.chunk.js.map",
+    "runtime-main.js": "/repository-name/static/js/runtime-main.7c3010fd.js",
+    "runtime-main.js.map": "/repository-name/static/js/runtime-main.7c3010fd.js.map",
+    "static/js/2.103c9bac.chunk.js": "/repository-name/static/js/2.103c9bac.chunk.js",
+    "static/js/2.103c9bac.chunk.js.map": "/repository-name/static/js/2.103c9bac.chunk.js.map",
+    "static/js/3.cc0ec61b.chunk.js": "/repository-name/static/js/3.cc0ec61b.chunk.js",
+    "static/js/3.cc0ec61b.chunk.js.map": "/repository-name/static/js/3.cc0ec61b.chunk.js.map",
+    "index.html": "/repository-name/index.html",
+    "static/css/main.29359f69.chunk.css.map": "/repository-name/static/css/main.29359f69.chunk.css.map",
+    "static/js/2.103c9bac.chunk.js.LICENSE.txt": "/repository-name/static/js/2.103c9bac.chunk.js.LICENSE.txt",
+    "static/media/elisa-mobile.5eff10b2.png": "/repository-name/static/media/elisa-mobile.5eff10b2.png",
+    "static/media/elisa.a2c3cb51.png": "/repository-name/static/media/elisa.a2c3cb51.png",
+    "static/media/index.css": "/repository-name/static/media/icons-down.2a968a3d.svg",
+    "static/media/ipad-mockup.a6fcede1.png": "/repository-name/static/media/ipad-mockup.a6fcede1.png",
+    "static/media/iphone-mockup.2a0bc225.png": "/repository-name/static/media/iphone-mockup.2a0bc225.png",
+    "static/media/jason.b2636569.png": "/repository-name/static/media/jason.b2636569.png",
+    "static/media/leonidas.043ee1d5.png": "/repository-name/static/media/leonidas.043ee1d5.png",
+    "static/media/marco.1a98bdb2.png": "/repository-name/static/media/marco.1a98bdb2.png",
+    "static/media/mobile-desktop-mockup.c494595f.png": "/repository-name/static/media/mobile-desktop-mockup.c494595f.png",
+    "static/media/mobile-ipad-mockup.31a853f5.png": "/repository-name/static/media/mobile-ipad-mockup.31a853f5.png",
+    "static/media/mobile-iphone-mockup.7741eec9.png": "/repository-name/static/media/mobile-iphone-mockup.7741eec9.png",
+    "static/media/pc-mockup.6d15042b.png": "/repository-name/static/media/pc-mockup.6d15042b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c3010fd.js",
+    "static/js/2.103c9bac.chunk.js",
+    "static/css/main.29359f69.chunk.css",
+    "static/js/main.2354ca40.chunk.js"
+  ]
+}
