@@ -1,14 +1,21 @@
 import React, { Fragment } from 'react';
 import styled from '@emotion/styled';
 import ImgElipse2 from '../assets/img-bg/Ellipse2.svg'
+import ImgElipse3 from '../assets/img-bg/Ellipse3.svg'
+import ImgElipse4 from '../assets/img-bg/Ellipse4.svg'
+import ImgElipse5 from '../assets/img-bg/Ellipse5.svg'
+import ImgElipse6 from '../assets/img-bg/Ellipse6.svg'
+import ImgVector1 from '../assets/img-bg/Vector.svg'
+import ImgVector2 from '../assets/img-bg/Vector-1.svg'
+import ImgVector3 from '../assets/img-bg/Vector.2.svg'
 
-const Elipse2 = styled.svg`
+const Elipse2 = styled.div`
     background-image: url(${ImgElipse2});
     background-repeat: no-repeat;
     position: absolute;
     width: 400px;
     height: 400px;
-    left: -180px;
+    // left: -180px;
     top: 68px;
 
     @media (max-width: 1200px) {
@@ -17,7 +24,8 @@ const Elipse2 = styled.svg`
 `;
 
 const Elipse3 = styled.div`
-    background-image: url('../assets/img-bg/Elipse3.svg');
+    background-image: url(${ImgElipse3});
+    background-repeat: no-repeat;
     position: absolute;
     width: 400px;
     height: 400px;
@@ -30,7 +38,8 @@ const Elipse3 = styled.div`
 `;
 
 const Elipse4 = styled.div`
-    background-image: url('../assets/img-bg/Elipse4.svg');
+    background-image: url(${ImgElipse4});
+    background-repeat: no-repeat;
     position: absolute;
     width: 400px;
     height: 400px;
@@ -43,7 +52,8 @@ const Elipse4 = styled.div`
 `;
 
 const Elipse5 = styled.div`
-    background-image: url('../assets/img-bg/Elipse5.svg');
+    background-image: url('${ImgElipse5}');
+    background-repeat: no-repeat;
     position: absolute;
     width: 400px;
     height: 400px;
@@ -56,48 +66,55 @@ const Elipse5 = styled.div`
 `;
 
 const Elipse6 = styled.div`
-    background-image: url('../assets/img-bg/Elipse6.svg');
+    background-image: url(${ImgElipse6});
+    background-repeat: no-repeat;
     position: absolute;
     width: 400px;
     height: 400px;
     left: -35px;
     top: 5235px;
+    @media (max-width: 1200px) {
+        display: none;
+    }
 `;
 
 const Vector = styled.div`
-    background-image: url('../assets/img-bg/Vector.svg');
+    background-image: url('${ImgVector1}');
+    background-repeat: no-repeat;
     position: absolute;
-    width: 960.01px;
+    width: 580px;
+    right:0px;
     height: 777.99px;
-    left: 777px;
     top: 1049px;
-    
+    filter: blur(10px);
     @media (max-width: 1200px) {
         display: none;
     }
 `;
 
 const Vector1 = styled.div`
-    background-image: url('../assets/img-bg/Vector-1.svg');
+    background-image: url('${ImgVector2}');
+    background-repeat: no-repeat;
     position: absolute;
-    width: 960.01px;
+    width: 580px;
     height: 777.99px;
-    left: 742px;
+    right: 0px;
     top: 4857px;
-    
+    filter: blur(10px);
     @media (max-width: 1200px) {
         display: none;
     }
 `;
 
 const Vector2 = styled.div`
-    background-image: url('../assets/img-bg/Vector-2.svg');
+    background-image: url('${ImgVector3}');
+    background-repeat: no-repeat;
     position: absolute;
-    width: 960.01px;
+    width: 580px;
     height: 777.99px;
-    left: 577.01px;
+    left: 0px;
     top: 2377px;
-    
+    filter: blur(10px);
     @media (max-width: 1200px) {
         display: none;
     }
